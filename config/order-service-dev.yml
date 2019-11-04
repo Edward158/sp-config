@@ -21,9 +21,12 @@ management:
         include: hystrix.stream
        
 ---
-spring:  profiles:  - order1
+spring:
+  profiles:
+  - order1
   
-server:  port: 8201
+server:
+  port: 8201
   
 ---
 spring:
